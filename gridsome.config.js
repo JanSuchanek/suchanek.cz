@@ -12,6 +12,8 @@ module.exports = {
       options: {
         typeName: 'BlogPost',
         path: './content/blog/**/*.md',
+        route: '/blog/:slug',
+        resolveAbsolutePaths: true,
       }
     }    
   ],
