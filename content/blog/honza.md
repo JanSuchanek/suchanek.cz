@@ -1,6 +1,7 @@
 ---
 slug: honza
 title: Honza
+categories: [a, b, c]
 ---
  
 Piráti se rozhodli podpořit rozpočet předložený současnou Radou MČ. Napříč politickým spektrem se podařilo vyjednat posílení peněz do školství. To je hlavní argument, který získal naši podporu.
