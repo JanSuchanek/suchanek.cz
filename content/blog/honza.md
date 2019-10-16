@@ -1,12 +1,6 @@
 ---
-date: 2019-01-16
-category: blog
-tags: piráti
-layout: post
-author: Milan Minařík
-authorId: milan.minarik
-title: 3. Zastupitelstvo
-image: articles/2018/2018-11-13-zmc.jpg
+slug: honza
+title: Honza
 ---
  
 Piráti se rozhodli podpořit rozpočet předložený současnou Radou MČ. Napříč politickým spektrem se podařilo vyjednat posílení peněz do školství. To je hlavní argument, který získal naši podporu.

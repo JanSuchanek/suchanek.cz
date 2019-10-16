@@ -10,15 +10,23 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'BlogPost',
-        path: './content/blog/**/*.md',
-        route: '/blog/:slug',
-        resolveAbsolutePaths: true,
+      	typeName: 'BlogPost',
+        baseDir: './content/blog',
+        path: '*.md'
       }
     }    
   ],
+  transformers: {
+    remark: {
+      // global remark options
+    }
+  },  
   templates: {
-    BlogPost: '/blog/:year/:month/:day/:slug'
-  }
-
+    BlogPost: [
+      {
+        path: '/blog/:slug',
+        component: './src/templates/BlogPost.vue'
+      }
+    ]
+  }  
 }
