@@ -7,6 +7,11 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "@gridsome/plugin-sitemap": "^0.2.2",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-gtm": "^0.1.1",
+    "gridsome-source-wordpress": "^0.4.13"
   }
 }
