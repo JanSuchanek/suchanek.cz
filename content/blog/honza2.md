@@ -1,6 +1,6 @@
 ---
-slug: honza
-title: Honza
+slug: honza2
+title: Honza2
 categories: [a, b, c]
 ---
  

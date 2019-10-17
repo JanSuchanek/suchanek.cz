@@ -7,6 +7,7 @@
   		<li v-for="category in $page.blogPost.categories">{{ category }}</li>
   	</ul>    
     <VueRemarkContent />
+    <div class="content" v-html="$page.blogPost.content" />
   </Layout>	
 </template>
 
@@ -26,6 +27,7 @@ query BlogPost ($id: ID!) {
     title
     slug
     categories
+    content
   }
 }
 </page-query>
